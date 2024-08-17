@@ -21,13 +21,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    // Absolute import alias
-    "paths": {
-      "*": [
-        "./src/*"
-      ], 
+    
+    "baseUrl": "./lib",// Absolute path starting point
+    "paths": { // Absolute import alias
       "@comp/*": [
-        "./src/components/*"
+        "./components/*"
       ]
     }
   },
