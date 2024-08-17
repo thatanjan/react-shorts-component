@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   build: {
     lib: {
-      entry: 'src/index.tsx',
+      entry: 'lib/index.ts',
       name: 'react-shorts-component', // Replace with your library name
       fileName: format => `react-shorts-component.${format}.js`,
       formats: ['es', 'cjs'], // Support for both ESM and CommonJS
