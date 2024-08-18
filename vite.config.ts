@@ -12,7 +12,7 @@ export default defineConfig({
       formats: ['es', 'cjs'], // Support for both ESM and CommonJS
     },
     rollupOptions: {
-      external: ['react', 'react-dom'],
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
       output: {
         globals: {
           react: 'React',
