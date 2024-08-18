@@ -21,11 +21,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    
-    "baseUrl": "./lib",// Absolute path starting point
     "paths": { // Absolute import alias
-      "@comp/*": [
-        "./components/*"
+      "comp/*": [
+        "./lib/components/*"
+      ],
+      "react-shorts-component": [
+        "./lib/index.ts"
       ]
     }
   },
